@@ -1,0 +1,61 @@
+body{
+    background-image: url(../img/super.jpg); 
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+form{
+    align: center;
+    padding: 10px 25px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    width: 340px;
+    background-color: blue;
+}
+
+p {
+    font-size: 25px;
+    text-align:right; 
+    padding: 10px 25px;
+    margin: 10px 30px;
+    
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+h1{
+    background-color: blue;
+}
+
+input,textarea{
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #EDFFF0;
+    border: 2px solid #F0FAF1;
+    color: black ;
+    outline: none;   
+}
+
+.btn{
+    font-size: 16px ;
+    color:white;
+    border: 0;
+    background-color:grey ;
+    box-shadow: #283629;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 10px 30px;
+}
+
+
+   
+
+
